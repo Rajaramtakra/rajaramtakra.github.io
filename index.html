@@ -1,1 +1,209 @@
-<h1>Rajaram Is Coming Soon.....</h1>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title>Dom Manupulation</title>
+	<style>
+		.container {
+			max-width: 900px;
+			margin: 0 auto;
+		}
+
+		ul {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			border: 1px solid #000;
+		}
+
+		li {
+			border-bottom: 1px solid #000;
+			padding: 5px 10px;
+		}
+
+		.list-item {
+			color: #ccc;
+		}
+
+		.pannel .caption {
+			opacity: 0;
+			transition: ease .5s;
+			height: 0;
+			padding: 0 10px;
+			visibility: hidden;
+		}
+
+		.pannel.active-item .caption{
+			opacity: 1;
+			visibility: visible;
+			height: initial;
+			padding: 10px;
+		}
+
+		.tabbed-content .panel {
+			display: none;
+		}
+		.tabbed-content .panel.active {
+			display: block;
+		}
+
+		.accrodian-contents {
+			height: 0;
+			opacity: 0;
+			visibility: hidden;
+			transition: ease .5s;
+		}
+
+		.active-panel .accrodian-contents {
+			height: inherit;
+			opacity: 1;
+			visibility: visible;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1 id="heading">Dom Manupulation course <span style="display: none;">12345</span></h1>
+	<h2 class="title">Add items</h2>
+	<form action="">
+		<input type="text" id="name" value="hello">
+		<input type="submit" id="submit">
+	</form>
+
+	<div class="items">
+		<h2 class="title">Item List</h2>
+		<ul id="myList">
+			<li class="group-list-item">item 1</li>
+			<li class="group-list-item" id="sita">item 2 (Sita)</li>
+			<li class="group-list-item">item 3</li>
+			<li class="group-list-item">item 4</li>
+			<li class="group-list-item">item 5</li>
+		</ul>
+
+		<h2>Fruits</h2>
+		<ul id="fruit-list">
+			<li class="list-item">Apple</li>
+		</ul>
+
+		<!-- Check box -->
+<input type="checkbox" id="checkBox">
+<label for="checkBox">Check for delet fruits list</label>
+	<!-- Accordian -->
+
+		<div class="user-block">
+			<h2>Users</h2>
+			<input type="text" class="inputUser">
+			<input type="submit" class="submit">
+			<ul class="user">
+				<li>Rajn <button class="close btn btn-danger">x</button></li>
+				<li>Ram <button class="close btn btn-danger">x</button></li>
+				<li>Laxmi <button class="close btn btn-danger">x</button></li>
+				<li>Anjila <button class="close btn btn-danger">x</button></li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class="accordian">
+		<div class="pannel">
+			<button class="btn btn-secondary">Accordian 1</button>
+		<div class="caption">
+			Accordian 1
+		</div>
+		</div>
+
+		<div class="pannel active-item">
+			<button class="btn btn-secondary">Accordian 2</button>
+		<div class="caption">
+			Accordian 2
+		</div>
+		</div>
+
+		<div class="pannel">
+			<button class="btn btn-secondary">Accordian 3</button>
+		<div class="caption">
+			Accordian 3
+		</div>
+		</div>
+	</div>
+
+	<!-- Change button color on select -->
+	<div class="buttons-wrap">
+		<button class="btn btn-primary">Default</button>
+		<button class="btn btn-danger">Danger</button>
+		<button class="btn btn-success">Scuccess</button>
+		<button class="btn btn-warning">Warning</button>
+	</div>
+	<select class="select">
+		<option value="reset">Reset</option>
+		<option value="red">Red</option>
+		<option value="green">Green</option>
+		<option value="Randoem">Random</option>
+	</select>
+
+	<!-- Tab pannels -->
+	<div class="tabbed-content">
+		<ul class="tabs">
+			<li class="btn btn-default btn-primary" data-target="#home">Home</li>
+			<li class="btn btn-default" data-target="#about">About</li>
+			<li class="btn btn-default" data-target="#contact">Contact</li>
+		</ul>
+		<div class="panel active" id="home">
+			<h3>Home</h3>
+			<p>This is home contents</p>
+		</div>
+		<div class="panel" id="about">
+			<h3>About</h3>
+			<p>This is about contents</p>
+		</div>
+		<div class="panel" id="contact">
+			<h3>Contact</h3>
+			<p>This is contact contents</p>
+		</div>
+	</div>
+
+	<!-- New Accordian -->
+	<div class="newAccordian">
+		<div class="newAccordian-pannel">
+			<button class="newAccordian-heading btn btn-secondary">Accordian One</button>
+			<div class="accrodian-contents">
+				<p>This is new accordian content One.</p>
+			</div>
+		</div>
+		<div class="newAccordian-pannel active-panel">
+			<button class="newAccordian-heading btn btn-secondary">Accordian Two</button>
+			<div class="accrodian-contents">
+				<p>This is new accordian content Two.</p>
+			</div>
+		</div>
+		<div class="newAccordian-pannel">
+			<button class="newAccordian-heading btn btn-secondary">Accordian Three</button>
+			<div class="accrodian-contents">
+				<p>This is new accordian content Three.</p>
+			</div>
+		</div>
+		<div class="newAccordian-pannel">
+			<button class="newAccordian-heading btn btn-secondary">Accordian Four</button>
+			<div class="accrodian-contents">
+				<p>This is new accordian content Four.</p>
+			</div>
+		</div>
+		<div class="newAccordian-pannel">
+			<button class="newAccordian-heading btn btn-secondary">Accordian Five</button>
+			<div class="accrodian-contents">
+				<p>This is new accordian content Five.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- New users -->
+	<div class="newUser">
+		
+	</div>
+
+	</div>
+</body>
+<script src="main.js"></script>
+</html>
