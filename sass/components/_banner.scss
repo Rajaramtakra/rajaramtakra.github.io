@@ -1,0 +1,88 @@
+/* Banner scss */
+
+/** banner-video **/
+.home-banner {
+	position: relative;
+	z-index: 1;
+	max-height: 50rem;
+	overflow: hidden;
+
+	.caption {
+		position: absolute;
+		background: rgba(12, 112, 19, 0.5);
+		height: 100%;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		top: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		z-index: 999;
+
+		.caption-wrap {
+			text-align: center;
+			padding: 0 1.5rem;
+
+			h1 {
+				color: $white;
+				margin-bottom: 3rem;
+				font-size: 1.6rem;
+
+				@media (min-width: 768px) {
+					font-size: 3rem;
+				}
+			}
+		}
+	}
+}
+
+.no-video .video-container video,
+.touch .video-container video {
+	display: none;
+}
+
+.no-video .video-container .poster,
+.touch .video-container .poster {
+	display: block !important;
+}
+
+.video-container {
+	position: relative;
+	bottom: 0%;
+	left: 0%;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	background: #000;
+}
+
+.video-container .poster img {
+	width: 100% !important;
+	height: 100% !important;
+	display: block;
+	margin: 0 !important;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+}
+
+.video-container .filter {
+	z-index: 100;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.4);
+	width: 100% !important;
+	height: 100% !important;
+	margin: 0 !important;
+}
+
+.video-container video {
+	z-index: 0;
+	bottom: 0;
+}
+
+.video-container video.fillWidth {
+	height: auto !important;
+	margin: 0 !important;
+	width: 100% !important;
+}
