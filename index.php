@@ -49,8 +49,7 @@
                         <div class="header-navigation">
                             <form action="" class="search-form d-none d-sm-block">
                                 <div class="form-group has-feedback">
-                                    <input type="text" class="form-control" name="search" id="search"
-                                        placeholder="search">
+                                    <input type="text" class="form-control" name="search" id="search" placeholder="search">
                                     <i class="fa fa-search form-control-feedback"></i>
                                 </div>
                             </form>
@@ -63,9 +62,7 @@
                                 </li>
                             </ul>
                             <nav class="navbar">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                    data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
-                                    aria-expanded="false" aria-label="Toggle navigation">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
@@ -74,9 +71,7 @@
                                     <ul class="navbar-nav ml-auto list-unstyled d-flex justify-content-between">
                                         <li><a href="#">Home</a></li>
                                         <li><a href="#">About</a></li>
-                                        <li class="dropdown"><a href="#" class="dropdown-toggle" id="dropdownMenuButton"
-                                                data-toggle="dropdown" aria-haspopup="true"
-                                                aria-expanded="false">Courses</a>
+                                        <li class="dropdown"><a href="#" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Courses</a>
                                             <ul class="dropdown-menu">
                                                 <li><a class="dropdown-item" href="#"> Web-Design/Frontend</a></li>
                                                 <li><a class="dropdown-item" href="#">PHP Framework</a></li>
@@ -111,8 +106,7 @@
                 </div>
                 <div class="caption">
                     <div class="caption-wrap">
-                        <h1 class="typewrite" data-period="2000"
-                            data-type="[ &quot;Welcome to Rajinfosis learn a new skill.&quot;, &quot;BUILDING GLOBAL IT PROFESSIONALS SINCE 2008.&quot;, &quot;Be a certified digital marketer.&quot;, &quot;World Class Digital Marketing.&quot; ]">
+                        <h1 class="typewrite" data-period="2000" data-type="[ &quot;Welcome to Rajinfosis learn a new skill.&quot;, &quot;BUILDING GLOBAL IT PROFESSIONALS SINCE 2008.&quot;, &quot;Be a certified digital marketer.&quot;, &quot;World Class Digital Marketing.&quot; ]">
                             <span class="wrap">Experience Adventure </span>
                         </h1>
                         <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#quoteModal">Send
@@ -120,7 +114,7 @@
                     </div>
                 </div>
             </section>
-            <!--/.header_banner-->
+            <!--/.header-banner-->
 
             <section class="intro-block top-btm-gutter5 text-center text-md-left">
                 <div class="container">
@@ -136,7 +130,7 @@
                                 dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                                 mollit anim id est laborum. Duis aute irure,</p>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                                 mollit anim id est laborum.</p>
                             <a class="btn btn-secondary" href="#"> Read More</a>
@@ -150,8 +144,7 @@
             <!--/.intro-block-->
 
             <!-- COURSES BLOCK -->
-            <section class="category-block block-section text-center top-btm-gutter8"
-                style="background-image: url('images/courses-bg.png')" data-stellar-background-ratio="0.5">
+            <section class="category-block block-section text-center top-btm-gutter8" style="background-image: url('images/courses-bg.png')" data-stellar-background-ratio="0.5">
                 <div class="container overlay-content">
                     <div class="headline-block">
                         <h2 class="title-style2">Professional IT Courses In Australia</h2>
@@ -161,8 +154,7 @@
                         <div class="col-md-3 col-sm-6 col-xs-6">
                             <a href="digitalmarketing.html" class="courses-block equal">
                                 <div class="img-wrap">
-                                    <img src="images/course/pJnkRR_1525123953-digitalmarketing.png"
-                                        alt="digitalmarketing">
+                                    <img src="images/course/pJnkRR_1525123953-digitalmarketing.png" alt="digitalmarketing">
                                 </div>
                                 <span>Digital Marketing</span>
                                 <div class="desc">
@@ -177,8 +169,7 @@
                         <div class="col-md-3 col-sm-6 col-xs-6">
                             <a href="course/ios-app-development.html" class="courses-block equal">
                                 <div class="img-wrap">
-                                    <img src="images/course/yU7wXY_1502688778-oNwUZM_1496391982-icon-apple.png"
-                                        alt="icon-apple">
+                                    <img src="images/course/yU7wXY_1502688778-oNwUZM_1496391982-icon-apple.png" alt="icon-apple">
                                 </div>
                                 <span>iOS App Development</span>
                                 <div class="desc">
@@ -192,8 +183,7 @@
                         <div class="col-md-3 col-sm-6 col-xs-6">
                             <a href="course/front-end-development.html" class="courses-block equal">
                                 <div class="img-wrap">
-                                    <img src="images/course/VGvR0z_1502688803-BvJ8FI_1496655168-icon-web-design.png"
-                                        alt="icon-web-design">
+                                    <img src="images/course/VGvR0z_1502688803-BvJ8FI_1496655168-icon-web-design.png" alt="icon-web-design">
                                 </div>
                                 <span>Front End Development</span>
                                 <div class="desc">
@@ -208,8 +198,7 @@
                         <div class="col-md-3 col-sm-6 col-xs-6">
                             <a href="course/graphic-designing.html" class="courses-block equal">
                                 <div class="img-wrap">
-                                    <img src="images/course/I0xmpi_1502688841-Vx4Eg3_1496660436-icon-graphic-design.png"
-                                        alt="icon-graphic-design">
+                                    <img src="images/course/I0xmpi_1502688841-Vx4Eg3_1496660436-icon-graphic-design.png" alt="icon-graphic-design">
                                 </div>
                                 <span>Graphic Designing</span>
                                 <div class="desc">
@@ -224,8 +213,7 @@
                         <div class="col-md-3 col-sm-6 col-xs-6">
                             <a href="course/animation-2d.html" class="courses-block equal">
                                 <div class="img-wrap">
-                                    <img src="images/course/f6f7DE_1502688918-zgBKUS_1496989411-animation.png"
-                                        alt="animation">
+                                    <img src="images/course/f6f7DE_1502688918-zgBKUS_1496989411-animation.png" alt="animation">
                                 </div>
                                 <span>Animation - 2D</span>
                                 <div class="desc">
@@ -239,8 +227,7 @@
                         <div class="col-md-3 col-sm-6 col-xs-6">
                             <a href="course/linux.html" class="courses-block equal">
                                 <div class="img-wrap">
-                                    <img src="images/course/0lli7Z_1502689170-39g0tz_1496991621-icon-linux.png"
-                                        alt="icon-linux">
+                                    <img src="images/course/0lli7Z_1502689170-39g0tz_1496991621-icon-linux.png" alt="icon-linux">
                                 </div>
                                 <span>Linux</span>
                                 <div class="desc">
@@ -282,8 +269,7 @@
                         <div class="col-md-3 col-sm-6 col-xs-6">
                             <a href="course/android-app-development.html" class="courses-block equal">
                                 <div class="img-wrap">
-                                    <img src="images/course/eNakoI_1502689296-Ip8o3j_1498986758-android.png"
-                                        alt="android">
+                                    <img src="images/course/eNakoI_1502689296-Ip8o3j_1498986758-android.png" alt="android">
                                 </div>
                                 <span>Android App Development</span>
                                 <div class="desc">
@@ -353,8 +339,7 @@
                         <div class="col-md-3 col-sm-6 col-xs-6">
                             <a href="course/drupal.html" class="courses-block equal">
                                 <div class="img-wrap">
-                                    <img src="images/course/Vn4nUF_1502689422-DsRJOs_1498994139-drupal.png"
-                                        alt="drupal">
+                                    <img src="images/course/Vn4nUF_1502689422-DsRJOs_1498994139-drupal.png" alt="drupal">
                                 </div>
                                 <span>Drupal</span>
                                 <div class="desc">
@@ -368,8 +353,7 @@
                         <div class="col-md-3 col-sm-6 col-xs-6">
                             <a href="course/magento.html" class="courses-block equal">
                                 <div class="img-wrap">
-                                    <img src="images/course/ddWEGf_1502689444-jAjm2K_1498994505-magento.png"
-                                        alt="magento">
+                                    <img src="images/course/ddWEGf_1502689444-jAjm2K_1498994505-magento.png" alt="magento">
                                 </div>
                                 <span>Magento</span>
                                 <div class="desc">
@@ -397,8 +381,7 @@
                         <div class="col-md-3 col-sm-6 col-xs-6">
                             <a href="course/joomla.html" class="courses-block equal">
                                 <div class="img-wrap">
-                                    <img src="images/course/UJZwJk_1502689506-qNclnH_1499060264-joomla.png"
-                                        alt="joomla">
+                                    <img src="images/course/UJZwJk_1502689506-qNclnH_1499060264-joomla.png" alt="joomla">
                                 </div>
                                 <span>Joomla</span>
                                 <div class="desc">
@@ -435,13 +418,11 @@
                         <div class="col-md-5 col-sm-5 col-xs-12">
                             <div class="brand-slider">
                                 <div class="slider-item">
-                                    <img src="images/Ha04JO_1497005196-best-quality.png" data-animation-in="flipInY"
-                                        alt="">
+                                    <img src="images/Ha04JO_1497005196-best-quality.png" data-animation-in="flipInY" alt="">
                                 </div>
 
                                 <div class="slider-item">
-                                    <img src="images/Ffuon1_1497005225-best-instructors.png" data-animation-in="pulse"
-                                        alt="">
+                                    <img src="images/Ffuon1_1497005225-best-instructors.png" data-animation-in="pulse" alt="">
                                 </div>
                             </div>
                         </div>
@@ -459,8 +440,7 @@
                                                 occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                                                 mollit anim id est laborum.</p>
                                         </blockquote>
-                                        <img src="images/testinomial/ubwqZo_1505108539-bijaya.png" class="client"
-                                            alt="">
+                                        <img src="images/testinomial/ubwqZo_1505108539-bijaya.png" class="client" alt="">
                                         <h5 class="title-style5">Bijaya Kumar Barakoti</h5>
                                         <span class="position title-style">Founder/Creative Director at SunBi Design
                                             Studio</span>
@@ -489,8 +469,7 @@
                                                 occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                                                 mollit anim id est laborum.</p>
                                         </blockquote>
-                                        <img src="images/testinomial/lB1XpA_1503206787-sirjana.jpg" class="client"
-                                            alt="">
+                                        <img src="images/testinomial/lB1XpA_1503206787-sirjana.jpg" class="client" alt="">
                                         <h5 class="title-style5">Srijana Maharjan</h5>
                                         <span class="position title-style">Front End Developer at Rillmark</span>
                                     </div>
@@ -504,8 +483,7 @@
                                                 occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                                                 mollit anim id est laborum.</p>
                                         </blockquote>
-                                        <img src="images/testinomial/OV7skl_1503206763-Pragya.jpg" class="client"
-                                            alt="">
+                                        <img src="images/testinomial/OV7skl_1503206763-Pragya.jpg" class="client" alt="">
                                         <h5 class="title-style5">Pragya Gurung</h5>
                                         <span class="position title-style">Brand Manager at Rillmark</span>
                                     </div>
@@ -537,15 +515,13 @@
                                             </div>
                                             <div class="form-body">
                                                 <div class="form-group">
-                                                    <input name="5896nm" type="text" placeholder="Your Name..."
-                                                        required>
+                                                    <input name="5896nm" type="text" placeholder="Your Name..." required>
                                                 </div>
                                                 <div class="form-group">
                                                     <input name="5896nm" type="text" placeholder="Your Email" required>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input required="" name="Telephone" type="tel"
-                                                        placeholder="Your Phone">
+                                                    <input required="" name="Telephone" type="tel" placeholder="Your Phone">
                                                 </div>
                                                 <div class="form-group">
                                                     <select name="Course" required>
@@ -557,14 +533,11 @@
                                                     </select>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label class="control-label sr-only">Message <span
-                                                            class="required">*</span></label>
-                                                    <textarea placeholder="Your Message..." required="" name="5896ms"
-                                                        cols="50" rows="6"></textarea>
+                                                    <label class="control-label sr-only">Message <span class="required">*</span></label>
+                                                    <textarea placeholder="Your Message..." required="" name="5896ms" cols="50" rows="6"></textarea>
                                                 </div>
                                                 <div class="form-group">
-                                                    <button type="submit" tabindex="8" id="enquiry-submit-btn"
-                                                        class="btn btn-secondary"><i class="fa fa-paper-plane-o"></i>
+                                                    <button type="submit" tabindex="8" id="enquiry-submit-btn" class="btn btn-secondary"><i class="fa fa-paper-plane-o"></i>
                                                         Send Enquiry
                                                     </button>
                                                 </div>
@@ -581,8 +554,7 @@
                                                         <a class="d-sm-flex align-items-center" href="training.html" target="_blank">
                                                             <div class="item-icon">
                                                                 <div class="circle-icon">
-                                                                    <img src="images/svg-icons/training.svg"
-                                                                        alt="training">
+                                                                    <img src="images/svg-icons/training.svg" alt="training">
                                                                 </div>
                                                             </div>
                                                             <div class="item-content">
@@ -597,8 +569,7 @@
                                                         <a class="d-sm-flex align-items-center" href="project-work.html" target="_blank">
                                                             <div class="item-icon">
                                                                 <div class="circle-icon">
-                                                                    <img src="images/svg-icons/project-work.svg"
-                                                                        alt="project-work">
+                                                                    <img src="images/svg-icons/project-work.svg" alt="project-work">
                                                                 </div>
                                                             </div>
                                                             <div class="item-content">
@@ -613,8 +584,7 @@
                                                         <a class="d-sm-flex align-items-center" href="evaluation.html" target="_blank">
                                                             <div class="item-icon">
                                                                 <div class="circle-icon ">
-                                                                    <img src="images/svg-icons/evaluation.svg"
-                                                                        alt="evaluation">
+                                                                    <img src="images/svg-icons/evaluation.svg" alt="evaluation">
                                                                 </div>
                                                             </div>
                                                             <div class="item-content">
@@ -629,8 +599,7 @@
                                                         <a class="d-sm-flex align-items-center" href="internship-placement.html" target="_blank">
                                                             <div class="item-icon">
                                                                 <div class="circle-icon">
-                                                                    <img src="images/svg-icons/placement.svg"
-                                                                        alt="placement">
+                                                                    <img src="images/svg-icons/placement.svg" alt="placement">
                                                                 </div>
                                                             </div>
                                                             <div class="item-content">
@@ -695,7 +664,7 @@
                 <div class="container">
                     <form method="POST" class="subscription">
                         <div class="input-group">
-                            <input name="email" class="form-control" placeholder="Get Updates and Offers" type="email" >
+                            <input name="email" class="form-control" placeholder="Get Updates and Offers" type="email">
                             <div class="input-group-addon">
                                 <button type="submit" name="submit" class="btn btn-theme-2">SUBSCRIBE</button>
                             </div>
@@ -734,8 +703,7 @@
                             <ul class="list-unstyled">
                                 <li><i class="fa fa-map-marker"></i> Rajinfosis Suite 18, 89 Jones Street Ultimo NSW
                                     2007</li>
-                                <li><i class="fa fa-phone"></i>Ph:<a href="callto:977016611540"> +977-01-6611540</a>, <a
-                                        href="callto:6619140">6619140</a></li>
+                                <li><i class="fa fa-phone"></i>Ph:<a href="callto:977016611540"> +977-01-6611540</a>, <a href="callto:6619140">6619140</a></li>
                                 <li><i class="fa fa-mobile"></i>Cell:<a href="callto:+977-9841110019">
                                         +977-9841110019</a></li>
                                 <li><i class="fa fa-globe"></i>Web:<a href="demonp@gmial.com">demo@gmial.com</a></li>
@@ -792,8 +760,7 @@
             </div>
             <div class="footer-bottom">
                 <div class="container text-center">
-                    <p>Copyright &copy; 2019 Rajinfosis. All rights reserved. Designed and developed By <a
-                            href="#">Rajweb Design</a>.</p>
+                    <p>Copyright &copy; 2019 Rajinfosis. All rights reserved. Designed and developed By <a href="#">Rajweb Design</a>.</p>
                 </div>
             </div>
 
@@ -810,8 +777,7 @@
                         <div class="popup-head-left pull-left"><img src="images/raja.jpg" alt="Raja"> Rajaram Takra
                         </div>
                         <div class="popup-head-right pull-right">
-                            <button data-widget="remove" id="removeClass" class="chat-header-button pull-right"
-                                type="button"><i class="fa fa-power-off"></i>
+                            <button data-widget="remove" id="removeClass" class="chat-header-button pull-right" type="button"><i class="fa fa-power-off"></i>
                             </button>
                         </div>
                     </div>
@@ -853,9 +819,7 @@
                                     <span class="direct-chat-name pull-left">Osahan</span>
                                 </div>
                                 <!-- /.direct-chat-info -->
-                                <img alt="iamgurdeeposahan"
-                                    src="http://bootsnipp.com/img/avatars/bcf1c0d13e5500875fdd5a7e8ad9752ee16e7462.jpg"
-                                    class="direct-chat-img"><!-- /.direct-chat-img -->
+                                <img alt="iamgurdeeposahan" src="http://bootsnipp.com/img/avatars/bcf1c0d13e5500875fdd5a7e8ad9752ee16e7462.jpg" class="direct-chat-img"><!-- /.direct-chat-img -->
                                 <div class="direct-chat-text">
                                     Hey bro, how’s everything going ?
                                 </div>
@@ -863,9 +827,7 @@
                                     <span class="direct-chat-timestamp pull-right">3.36 PM</span>
                                 </div>
                                 <div class="direct-chat-info clearfix">
-                                    <img alt="iamgurdeeposahan"
-                                        src="http://bootsnipp.com/img/avatars/bcf1c0d13e5500875fdd5a7e8ad9752ee16e7462.jpg"
-                                        class="direct-chat-img big-round">
+                                    <img alt="iamgurdeeposahan" src="http://bootsnipp.com/img/avatars/bcf1c0d13e5500875fdd5a7e8ad9752ee16e7462.jpg" class="direct-chat-img big-round">
                                     <span class="direct-chat-reply-name">Singh</span>
                                 </div>
                                 <!-- /.direct-chat-text -->
@@ -874,8 +836,7 @@
                         </div>
                     </div>
                     <div class="popup-messages-footer">
-                        <textarea id="status_message" placeholder="Type a message..." rows="10" cols="40"
-                            name="message"></textarea>
+                        <textarea id="status_message" placeholder="Type a message..." rows="10" cols="40" name="message"></textarea>
                         <div class="btn-footer">
                             <button class="bg_none"><i class="fa fa-file-text"></i> </button>
                             <button class="bg_none"><i class="fa fa-camera"></i> </button>
