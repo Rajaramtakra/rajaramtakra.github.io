@@ -18506,15 +18506,15 @@ header .logo {
 }
 
 header .logo img {
-	width: 150px;
+	width: 200px;
 	margin-top: 0;
 	position: absolute;
-	left: -30px;
+	left: 0;
 	margin-top: 10px
 }
 
 nav.navbar.pull-right {
-	margin-top: 60px
+	margin-top: 25px
 }
 
 .fullscreen-menu .menu-button {
@@ -18583,7 +18583,7 @@ a.mlc.sm-scroll:focus {
 }
 
 #header.header-dark.header-filled nav.navbar.pull-right {
-	margin-top: 45px
+	margin-top: 25px
 }
 
 .logo img {
@@ -18591,10 +18591,10 @@ a.mlc.sm-scroll:focus {
 }
 
 #header.header-dark.header-filled .logo img {
-	width: 120px;
+	width: 160px;
 	margin-top: 7px;
 	position: absolute;
-	left: -30px
+	left: 0;
 }
 
 #header.transparent.header-filled {
@@ -23864,7 +23864,7 @@ screen and (max-height:300px) {
 
 @media (max-width:479px) {
 	header .logo img {
-		width: 127px;
+		width: 220px;
 		margin-left: 10px;
 		margin-top: 0
 	}
