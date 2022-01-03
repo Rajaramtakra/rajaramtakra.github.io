@@ -1,0 +1,78 @@
+/* trainer scss */
+.trainer {
+    .item {
+        @media (min-width: 576px) {
+            padding: 0 1rem;
+        }
+
+        figure {
+            position: relative;
+            margin: 0;
+            overflow: hidden;
+
+            img {
+                transform: scale(1);
+                transition: ease 0.5s;
+                width: 100%;
+            }
+
+            figcaption {
+                position: absolute;
+                background: rgba(0, 0, 0, 0.5);
+                padding: 1rem;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+                color: $white;
+                transform: scale(0);
+                transition: ease 0.5s;
+
+                ul {
+                    li {
+                        margin-right: 1rem;
+
+                        &:last-child {
+                            margin-right: 0;
+                        }
+
+                        a {
+                            color: $white;
+
+                            &:hover {
+                                color: $primary-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &:hover {
+
+            figure {
+                img {
+                    transform: scale(1.2);
+                    transition: ease 0.5s;
+                }
+            }
+
+            figcaption {
+                transform: scale(1);
+                transition: ease 0.5s;
+            }
+        }
+    }
+
+    h5 {
+        background: $primary-color;
+        color: set-text-color($primary-color);
+        padding: 1rem 1.5rem;
+        text-align: center;
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "description": "Raj Infosis",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/main.css -w"
+  },
+  "author": "Rajaram",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "sass": "^1.17.0"
+  }
+}

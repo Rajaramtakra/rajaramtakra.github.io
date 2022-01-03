@@ -1,0 +1,92 @@
+.pricing {
+    .section-title {
+        max-width: 80rem;
+        margin: 0 auto 3rem;
+    }
+
+    &-wrapper {
+        max-width: 120rem;
+        margin: 0 auto;
+    }
+
+    &-item {
+        width: 100%;
+        background: $white;
+        margin-bottom: 2rem;
+
+        @media (min-width: 768px) {
+            width: 50%;
+            padding: 0 0.5rem;
+        }
+
+        @media (min-width: 1200px) {
+            width: 33.33%;
+        }
+
+
+
+        .pricing-content {
+            border: 1px solid #ccc;
+            transition: ease 0.5s;
+            background: $white;
+
+            .price-title {
+                background: lighten($black, 90%);
+                padding: 1.5rem;
+                margin: 0;
+            }
+
+            .value-box {
+                background: $primary-color;
+                padding: 3rem 1.5rem;
+                color: $white;
+            }
+
+            .meta {
+                background: $secondary-color;
+                border-radius: 2rem;
+                padding: 0.2rem 2.5rem;
+                display: inline-block;
+            }
+
+            ul {
+                li {
+                    border-bottom: 1px solid #ccc;
+                    padding: 1rem 0;
+                }
+            }
+
+            .meta-box {
+                padding: 1rem;
+
+                .btn {
+                    border: 1px solid $primary-color;
+                    transition: ease 0.5s;
+                }
+            }
+
+            &:hover {
+                transition: ease 0.5s;
+                transform: scale(1.1);
+                box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+
+                .btn {
+                    background: transparent;
+                    border: 1px solid $primary-color;
+                    transition: ease 0.5s;
+                    color: $primary-color;
+                }
+            }
+        }
+
+        &:nth-child(2) {
+            .value-box {
+                background: $secondary-color;
+            }
+
+            .meta {
+                background: $primary-color;
+            }
+        }
+    }
+}

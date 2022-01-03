@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic');
+
+@import 'base/reset.scss';
+
+@import 'layouts/header.scss';
+@import 'layouts/footer.scss';
+@import 'layouts/button.scss';
+@import 'components/banner.scss';
+@import 'components/services.scss';
+@import 'components/bmi-calculator.scss';
+@import 'components/trainer.scss';
+@import 'components/gallery.scss';
+@import 'components/testimonial.scss';
+@import 'components/inner-banner.scss';
+
+@import 'pages/aboutpage.scss';
+@import 'pages/gallery-page.scss';
+@import 'pages/contact.scss';
+@import 'pages/events.scss';
+@import 'pages/event-single.scss';
+@import 'pages/faqs.scss';
+@import 'pages/classes.scss';
+@import 'pages/pricing.scss';
+@import 'pages/shop.scss';

@@ -1,0 +1,39 @@
+.faq-accordion {
+    .card {
+        margin-bottom: 0.5rem;
+
+        .card-header {
+            padding: 0;
+        }
+
+        .btn {
+            padding: 0.7rem 1.5rem;
+            background: transparent;
+            border: none;
+            text-align: left;
+            color: $primary-color;
+            position: relative;
+
+            &:after {
+                content: '\f068';
+                font-family: "FontAwesome";
+                position: absolute;
+                right: 1.5rem;
+                top: 1rem;
+                transition: ease 0.5s;
+            }
+
+            &:hover {
+                background: transparent;
+                text-decoration: none;
+            }
+        }
+
+        .collapsed {
+            &:after {
+                content: '\f067';
+                transition: ease 0.5s;
+            }
+        }
+    }
+}

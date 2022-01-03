@@ -1,0 +1,117 @@
+/* Testimonial scss*/
+.testimonial {
+    .slider-for {
+        border: 0.1rem solid rgba(0, 0, 0, 0.3);
+        padding: 3rem 1.5rem;
+        position: relative;
+        margin-bottom: 1.5rem;
+
+        @media (min-width: 768px) {
+            padding: 3rem;
+        }
+
+        &:after {
+            content: '';
+            background: $white;
+            height: 1.2rem;
+            width: 1.2rem;
+            border: 0.1rem solid rgba(0, 0, 0, 0.3);
+            bottom: -0.7rem;
+            border-left: none;
+            border-top: none;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            transform: rotate(45deg);
+        }
+
+        .item {
+            blockquote {
+                margin: 0;
+            }
+        }
+    }
+
+    .slider-nav {
+        max-width: 28rem;
+        margin: 0 auto;
+
+        @media (min-width: 768px) {
+            max-width: 33rem;
+        }
+
+        .item {
+            text-align: center;
+        }
+
+        figure {
+            width: 6rem;
+            height: 6rem;
+            border-radius: 50%;
+            overflow: hidden;
+            display: inline-block;
+            transition: ease 0.5s;
+            transform: scale(1);
+
+            @media (min-width: 768px) {
+                width: 7.5rem;
+                height: 7.5rem;
+            }
+
+            @media (min-width: 768px) {
+                width: 9rem;
+                height: 9rem;
+            }
+        }
+
+        .slick-current {
+            figure {
+                transform: scale(1.2);
+                transition: ease 0.5s;
+                box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+            }
+        }
+
+        .slick-arrow {
+            font-size: 0;
+            padding: 0;
+            cursor: pointer;
+
+            &:after {
+                font: normal normal normal 14px/1 FontAwesome;
+                display: inline-block;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            &:hover {
+                color: $primary-color;
+            }
+        }
+
+        .slick-prev {
+            &:after {
+                content: '\f177';
+                left: -1rem;
+
+                @media (min-width: 768px) {
+                    left: -2rem;
+                }
+            }
+        }
+
+        .slick-next {
+
+            &:after {
+                content: '\f178';
+                right: -1rem;
+
+                @media (min-width: 768px) {
+                    right: -2rem;
+                }
+            }
+        }
+    }
+}

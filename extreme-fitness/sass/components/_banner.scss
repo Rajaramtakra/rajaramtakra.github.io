@@ -1,0 +1,72 @@
+/* Banner scss */
+
+/** banner-video **/
+.banner-slider {
+	color: $white;
+
+	.item {
+		padding: 3rem 0 5rem;
+		text-align: center;
+
+		@media (min-width: 576px) {
+			padding: 3rem 0 0;
+			text-align: left;
+		}
+
+		&:nth-child(even) {
+			.row {
+				.img-holder {
+					order: 2;
+				}
+			}
+		}
+	}
+
+	.banner-caption {
+
+		span {
+			text-transform: uppercase;
+			display: block;
+			margin-bottom: 1rem;
+
+			@media (min-width: 768px) {
+				letter-spacing: 0.5rem;
+			}
+
+			@media (min-width: 992px) {
+				letter-spacing: 1rem;
+			}
+
+			@media (min-width: 1200px) {
+				letter-spacing: 1.5rem;
+			}
+		}
+
+		h2 {
+			margin-bottom: 1.5rem;
+			color: $primary-color;
+		}
+
+		h4 {
+			font-weight: 300;
+			margin-bottom: 1rem;
+		}
+
+		p {
+			@media (min-width: 576px) {
+				display: none;
+			}
+
+			@media (min-width: 768px) {
+				display: block;
+			}
+		}
+	}
+
+	.slick-dots {
+		position: absolute;
+		bottom: 3rem;
+	}
+
+
+}

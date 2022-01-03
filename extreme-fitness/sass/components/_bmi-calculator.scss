@@ -1,0 +1,48 @@
+.bmi-calculation {
+	background-position: 16% 0%;
+	background-attachment: fixed;
+
+	@media (min-width: 768px) {
+		background-position: center center;
+	}
+
+	.section-title {
+		margin-bottom: 2rem;
+
+		h4 {
+			margin-bottom: 1rem;
+		}
+	}
+
+	.bmi-form {
+		background: rgba(0, 0, 0, 0.7);
+		padding: 4rem 3rem;
+		color: $white;
+
+		h5 {
+			margin-bottom: 1rem;
+		}
+	}
+
+	.form-wrap {
+		margin-bottom: 1.5rem;
+
+		@media (min-width: 768px) {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 0 -0.5rem 1.5rem;
+		}
+
+		.form-group {
+			@media (min-width: 768px) {
+				width: 50%;
+				padding: 0 0.5rem;
+			}
+
+			select,
+			input {
+				border-radius: 0;
+			}
+		}
+	}
+}
