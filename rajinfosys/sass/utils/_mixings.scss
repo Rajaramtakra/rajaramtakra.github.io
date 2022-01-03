@@ -1,0 +1,28 @@
+@mixin transition {
+   transition: .2s all ease-in-out;
+ }
+@mixin orange-gradient {
+   background: #cd693c;
+   background: -moz-linear-gradient(top, #cd693c 0%, #d18831 84%, #d28b30 100%);
+   background: -webkit-linear-gradient(top, #cd693c 0%,#d18831 84%,#d28b30 100%);
+   background: linear-gradient(to bottom, #cd693c 0%,#d18831 84%,#d28b30 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cd693c', endColorstr='#d28b30',GradientType=0 );
+
+   &:hover {
+      background: #d28b30;
+      background: -moz-linear-gradient(top, #d28b30 0%, #d18831 16%, #cd693c 100%);
+      background: -webkit-linear-gradient(top, #d28b30 0%,#d18831 16%,#cd693c 100%);
+      background: linear-gradient(to bottom, #d28b30 0%,#d18831 16%,#cd693c 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d28b30', endColorstr='#cd693c',GradientType=0 );
+   }
+}
+
+
+
+@function set-text-color( $color ) {
+  @if (lightness( $color) > 50% ) {
+    @return #1c1c1c;
+  } @else {
+    @return #fff;
+  }
+}

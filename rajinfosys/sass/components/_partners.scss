@@ -1,0 +1,32 @@
+/* partners scss */
+
+.parnters {
+	.section-title {
+		border-bottom: 0.1rem solid #a7a7a7;
+	}
+
+	&-slider {
+		margin: 0 -0.75rem;
+
+	}
+
+	&-item {
+		border: 0.1rem solid #a7a7a7;
+		margin: 0 0.75rem;
+		text-align: center;
+
+		.icon-box {
+			padding: 1.5rem;
+		}
+
+		img {
+			display: inline-block;
+		}
+
+		&:hover {
+			img {
+				filter: grayscale(100%);
+			}
+		}
+	}
+}
