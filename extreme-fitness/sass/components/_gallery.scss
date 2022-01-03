@@ -1,0 +1,129 @@
+.gallery {
+    background: lighten($black, 20%);
+    color: darken($white, 20%);
+
+    .gallery-wrap {
+        max-width: 50rem;
+        margin: 0 auto;
+
+        @media (min-width: 768px) {
+            max-width: 67.5rem;
+            margin: 0 0 0 auto;
+        }
+
+
+        @media (min-width: 992px) {
+            padding-right: 3rem;
+        }
+
+        .gallery-items {
+            @media (min-width: 481px) {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            figure {
+                margin: 0;
+
+                @media (min-width: 481px) {
+                    width: 50%;
+                }
+
+                @media (min-width: 768px) {
+                    width: 33.33%;
+                }
+            }
+
+            .fancybox {
+                position: relative;
+                display: block;
+
+                i {
+                    position: absolute;
+                    background: rgba(0, 0, 0, 0.5);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    transform: scale(0);
+                    transition: ease 0.5s;
+                    color: $white;
+                }
+
+                &:hover {
+                    i {
+                        transform: scale(1);
+                        transition: ease 0.5s;
+                    }
+                }
+            }
+        }
+
+        .nav-tabs {
+            .nav-item {
+
+                a {
+                    color: darken($white, 20%);
+
+                    @media (min-width: 768px) {
+                        padding: 1rem 3rem;
+                    }
+                }
+
+                .active {
+                    background: $primary-color;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+.getintouch-wrap {
+    position: relative;
+
+    &:after {
+        content: '';
+        background: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.getintouch {
+    max-width: 50rem;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+
+    @media (min-width: 768px) {
+        max-width: 41.2rem;
+        margin: 0 0 auto;
+    }
+
+    @media (min-width: 1200px) {
+        padding-left: 3rem;
+    }
+
+    input,
+    textarea {
+        background: rgba(0, 0, 0, 0.5);
+        border: 0.1rem solid rgba(255, 255, 255, 0.5);
+        color: $white;
+        border-radius: 0;
+
+        &:focus {
+            border-color: $primary-color;
+            box-shadow: none;
+            outline: none;
+            color: $white;
+        }
+    }
+}

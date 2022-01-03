@@ -1,0 +1,39 @@
+.btn {
+  display: inline-block;
+  background: $primary-color;
+  color: ser-text-color($primary-color);
+  cursor: pointer;
+  border: 1px solid $primary-color;
+  border-radius: 0;
+  padding: 1rem 3.5rem;
+  font-size: 1.4rem;
+
+  @media (min-width: 768px) {
+    font-size: 1.8rem;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    background: darken($primary-color, 20%);
+    border: 1px solid $primary-color;
+  }
+}
+
+.btn-primary {
+  background: $primary-color;
+  color: ser-text-color($primary-color);
+  border: 1px solid $primary-color;
+
+  &:hover {
+    background: lighten($primary-color, 10%);
+  }
+}
+
+@media (min-width: 768px) {
+  .btn-primary {
+    font-size: 1.7rem;
+  }
+}

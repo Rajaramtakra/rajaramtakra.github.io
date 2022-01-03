@@ -1,0 +1,36 @@
+.inner-banner {
+    padding: 3rem 0;
+    color: $white;
+    background-attachment: fixed;
+
+    .breadcrumb {
+        background: transparent;
+        display: inline-block;
+
+        li {
+            margin-right: 1rem;
+            border-right: 0.1rem solid $white;
+            padding-right: 1rem;
+            display: inline-block;
+
+            &:last-child {
+                margin: 0;
+                padding-right: 0;
+                border-right: none;
+            }
+
+            a {
+                color: $white;
+                text-transform: uppercase;
+
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+
+            .active {
+                color: $primary-color;
+            }
+        }
+    }
+}
