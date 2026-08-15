@@ -1,0 +1,1 @@
+import{g as e}from"./index-DSxqfx6V.js";async function t({page:t=1,perPage:n=10,category:r}={}){let{data:i,headers:a}=await e.get(`/wp/v2/news`,{params:{page:t,per_page:n,_embed:!0,news_category:r}});return{items:i,total:Number(a[`x-wp-total`]??i.length)}}async function n(t){let{data:n}=await e.get(`/wp/v2/news`,{params:{slug:t,_embed:!0}});return n[0]??null}export{n,t};

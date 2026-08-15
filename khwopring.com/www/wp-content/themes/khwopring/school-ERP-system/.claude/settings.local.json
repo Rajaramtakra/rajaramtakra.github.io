@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where postgres *)",
+      "Bash(where pg_ctl)",
+      "Read(//c/Program Files/**)",
+      "Bash(where docker *)",
+      "PowerShell(winget --version 2>&1)",
+      "Bash(winget install *)"
+    ]
+  }
+}

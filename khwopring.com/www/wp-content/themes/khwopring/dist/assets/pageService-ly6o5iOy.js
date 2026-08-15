@@ -1,0 +1,1 @@
+import{g as e}from"./index-DSxqfx6V.js";async function t(t){let{data:n}=await e.get(`/wp/v2/pages`,{params:{slug:t,_embed:!0}});return n[0]??null}export{t};

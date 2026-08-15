@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-cream-100 text-navy font-body antialiased transition-colors duration-200 dark:bg-navy-900 dark:text-cream-100;
+  }
+  /* Color intentionally omitted: headings inherit from context so they stay
+     readable on both light sections (inherit navy from body) and dark
+     sections (inherit white from an ancestor with text-white). */
+  h1, h2, h3, h4 {
+    @apply font-display font-semibold;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-6 py-3 font-semibold transition-colors duration-200;
+  }
+  .btn-primary {
+    @apply btn bg-gold text-navy-900 hover:bg-gold-600;
+  }
+  .btn-outline {
+    @apply btn border border-white/40 text-white hover:bg-white/10;
+  }
+  .section-eyebrow {
+    @apply text-xs font-semibold uppercase tracking-widest text-rust;
+  }
+  .skip-link {
+    @apply absolute left-4 top-4 z-[200] -translate-y-24 rounded-md bg-gold px-4 py-2 font-semibold text-navy-900 transition-transform focus:translate-y-0;
+  }
+}

@@ -1,0 +1,1 @@
+import{g as e}from"./index-DSxqfx6V.js";async function t(){let{data:t}=await e.get(`/wp/v2/facility`,{params:{orderby:`menu_order`,order:`asc`,per_page:20,_embed:!0}});return t}export{t};
